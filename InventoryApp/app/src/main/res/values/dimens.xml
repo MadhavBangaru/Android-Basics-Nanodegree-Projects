@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">12dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin18">18dp</dimen>
+    <dimen name="margin0">0dp</dimen>
+    <dimen name="margin88">88dp</dimen>
+    <dimen name="layout_height">100dp</dimen>
+    <dimen name="margin12">12dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="card_height">5dp</dimen>
+    <dimen name="textsize18">18sp</dimen>
+    <dimen name="textsize14">14sp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+</resources>

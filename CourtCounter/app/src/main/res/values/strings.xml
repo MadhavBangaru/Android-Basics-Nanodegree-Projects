@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Baseball Score</string>
+    <string name="reset">reset</string>
+    <string name="freethrow">free throw</string>
+    <string name="Strike2">Strike \'2\'</string>
+    <string name="Homerun6">Homerun \'6\'</string>
+    <string name="zero">0</string>
+    <string name="TeamB">Team B</string>
+    <string name="TeamA">Team A</string>
+</resources>

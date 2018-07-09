@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bs"
+    android:fillViewport="true"
+    tools:context="com.example.madhavbangaru.courtcounter.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/teamName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/teamPadding"
+                    android:text="@string/TeamA" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/scorePadding"
+                    android:text="@string/zero" />
+
+                <Button
+                    android:id="@+id/a_point_6"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSixForTeamA"
+                    android:text="@string/Homerun6" />
+
+                <Button
+                    android:id="@+id/a_point_2"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTwoForTeamA"
+                    android:text="@string/Strike2" />
+
+                <Button
+                    android:id="@+id/a_free_throw"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="freeThrowA"
+                    android:text="@string/freethrow" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/line_width"
+                android:layout_height="@dimen/line_height"
+                android:background=" @android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    style="@style/teamName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/teamPadding"
+                    android:text="@string/TeamB" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/scorePadding"
+                    android:text="@string/zero" />
+
+                <Button
+                    android:id="@+id/b_point_6"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="addSixForTeamB"
+                    android:text="@string/Homerun6" />
+
+                <Button
+                    android:id="@+id/b_point_2"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="addTwoForTeamB"
+                    android:text="@string/Strike2" />
+
+                <Button
+                    android:id="@+id/b_free_throw"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="freeThrowB"
+                    android:text="@string/freethrow" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="reset"
+            android:text="@string/reset" />
+
+    </RelativeLayout>
+</ScrollView>

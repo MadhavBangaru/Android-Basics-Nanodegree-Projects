@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="congrats">Congrats! Score is %d / %d</string>
+    <string name="result_score_message">Score is %d / %d</string>
+    <string name="Ques1">1. What is <b>55</b> in <i>Roman Numerals?</i></string>
+    <string name="Ques2">2. What is the <b>fourth</b> planet from the <i>Sun</i>?</string>
+    <string name="Ques3">3.What are the <b>roots</b> of the equation <i>3x^2+3x-36</i>?</string>
+    <string name="Ques4">4. Which <b>country</b> is called \‘<i>Birth of Cricket Game</i>\'?</string>
+    <string name="Ques5">5. <i>Ordinary table salt</i> is <b>sodium chloride</b>. What is <i>baking soda</i>?</string>
+    <string name="hint">Answer</string>
+    <string name="Ques2Options1">Mercury</string>
+    <string name="Ques2Options2">Earth</string>
+    <string name="Ques2Options3">Jupiter</string>
+    <string name="Ques2Options4">Mars</string>
+    <string name="Ques3Options1">3</string>
+    <string name="Ques3Options2">8</string>
+    <string name="Ques3Options3">-4</string>
+    <string name="Ques3Options4">-6</string>
+    <string name="Ques4Options1">Potassium chloride</string>
+    <string name="Ques4Options2">Potassium carbonate</string>
+    <string name="Ques4Options3">Potassium hydroxide</string>
+    <string name="Ques4Options4">Sodium bicarbonatesubmit</string>
+    <string name="submit">submit</string>
+
+</resources>

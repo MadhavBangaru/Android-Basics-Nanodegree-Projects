@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#5E35B1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">@android:color/black</color>
+    <color name="background">#ff7b00</color>
+    <color name="ques1_background">#ffb2b2</color>
+    <color name="ques2_background">#d4ffb2</color>
+    <color name="ques3_background">#cffcf5</color>
+    <color name="ques4_background">#e5e5e5</color>
+    <color name="ques5_background">#fff83d</color>
+</resources>

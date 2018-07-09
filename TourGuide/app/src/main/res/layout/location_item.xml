@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_height"
+    android:layout_margin="@dimen/margin"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_height"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/titleName"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/margin"
+            android:text="@string/NAME" />
+
+        <LinearLayout
+            android:paddingLeft="@dimen/margin"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/Timing" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="@dimen/paddinRight"
+                android:src="@drawable/ic_timer_black_24dp" />
+
+            <TextView
+                style="@style/textView"
+                android:id="@+id/timing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timing_10to5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="@dimen/paddinRight"
+                android:src="@drawable/ic_call_black_24dp" />
+
+            <TextView
+                style="@style/textView"
+                android:id="@+id/phone"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:text="@string/placeholder"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="@dimen/margin"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+            <TextView
+                style="@style/textView"
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_location"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

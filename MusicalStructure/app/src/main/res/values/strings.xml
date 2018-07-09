@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="Latest">Latest</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Popular">Popular</string>
+    <string name="Playlist">Playlist</string>
+    <string name="Artist">Artist</string>
+    <string name="Song">Song</string>
+    <string name="SongName">Song Name</string>
+
+</resources>

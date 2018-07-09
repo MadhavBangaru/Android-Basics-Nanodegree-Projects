@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">22sp</dimen>
+    <dimen name="marginRight">16dp</dimen>
+    <dimen name="list_artist_ts">18sp</dimen>
+    <dimen name="list_song_ts">20sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="layout_height">88dp</dimen>
+    <dimen name="play_artist">24sp</dimen>
+    <dimen name="play_song">28sp</dimen>
+    <dimen name="p_padding">8dp</dimen>
+</resources>

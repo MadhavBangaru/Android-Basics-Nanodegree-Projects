@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_places">Places</string>
+    <string name="category_food">Food</string>
+    <string name="category_historical">Historic</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="timing_10to5">10AM to 5PM</string>
+    <string name="timing_12to11">12PM to 11PM</string>
+    <string name="round_the_clock">Round-the-clock</string>
+
+    <string name="placeName1">Charminar</string>
+    <string name="placeName2">Shilparamam </string>
+    <string name="placeName3">NehruZoological Park</string>
+    <string name="placeName4">Hitech-city</string>
+    <string name="placeName5">HussainSagar Lake</string>
+    <string name="placeName6">Chilkur Balaji Temple</string>
+    <string name="placeName7">Birla Mandir</string>
+
+    <string name="foodName1"> Mirchi ka Salan</string>
+    <string name="foodName2">Hyderabadi Biryani</string>
+    <string name="foodName3">Dum Pukht</string>
+    <string name="foodName4">Hyderabadi Marag</string>
+    <string name="foodName5">Keema Samosa</string>
+    <string name="foodName6">Paaya</string>
+    <string name="foodName7">Maghaz Masala</string>
+
+    <string name="historicName1">Golconda Fort</string>
+    <string name="historicName2">Taramati Baradari</string>
+    <string name="historicName3">Salarjung Museum</string>
+    <string name="historicName4">Archaeological Museum</string>
+    <string name="historicName5">The Nizam Museum</string>
+    <string name="historicName6">Chow Mohalla Palace</string>
+
+    <string name="hotelName1">Taj Krishna</string>
+    <string name="hotelName2">The Westin Mindspace</string>
+    <string name="hotelName3">Marigold Hotel</string>
+    <string name="hotelName4">Taj Deccan</string>
+    <string name="hotelName5">Courtyard by Marriott</string>
+    <string name="hotelName6">Park Hyatt</string>
+    <string name="hotelName7">Oakwood Residence</string>
+
+
+    <string name="get_location">GET LOCATION</string>
+    <string name="NAME">NAME</string>
+    <string name="Timing">Timing</string>
+    <string name="placeholder">987654321</string>
+
+
+
+
+</resources>

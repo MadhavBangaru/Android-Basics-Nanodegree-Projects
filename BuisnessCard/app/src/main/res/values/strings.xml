@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">McDonalds</string>
+    <string name="BottomTagline">Best Quality Hambergers and More | \n I\'m Lovein\' it !! </string>
+    <string name="Phone">040 4952 5067</string>
+    <string name="Website">www.mcdonalds.com</string>
+    <string name="Location">Manjeera Trinity Mall, JNTU Rd, Hyderabad</string>
+    <string name="Name">McDonalds</string>
+    <string name="Time">Open 10AM - 9PM</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">8dp</dimen>
+    <dimen name="imageHeight">80dp</dimen>
+    <dimen name="quesMargin">8dp</dimen>
+    <dimen name="ques_textSize">20sp</dimen>
+    <dimen name="ans_textSize">16sp</dimen>
+</resources>

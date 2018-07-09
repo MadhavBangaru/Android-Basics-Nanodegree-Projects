@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize">18sp</dimen>
+    <dimen name="Namesize">20sp</dimen>
+    <dimen name="paddingTop">8dp</dimen>
+    <dimen name="padding">14dp</dimen>
+    <dimen name="imageWidth">24dp</dimen>
+    <dimen name="imageHeight">24dp</dimen>
+    <dimen name="marginStart">16dp</dimen>
+</resources>

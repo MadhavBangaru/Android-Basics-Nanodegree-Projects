@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:layout_margin="@dimen/margin8"
+        card_view:cardBackgroundColor="@color/cardViewbackground"
+        card_view:cardCornerRadius="@dimen/card_elevation"
+        card_view:cardElevation="@dimen/card_elevation">
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/categoryColor"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/categoryTs"
+            android:layout_margin="@dimen/layout_margin"
+            tools:text="Category" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/leftpadding"
+            android:fontFamily="sans-serif"
+            android:maxLines="3"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="News Context" />
+
+        <TextView
+            android:layout_margin="@dimen/layout_margin"
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/author"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/textSize"
+            tools:text="Author" />
+
+        <TextView
+            android:layout_margin="@dimen/layout_margin"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:textColor="@color/date"
+            android:textSize="@dimen/textSize"
+            tools:text="July 7, 2018" />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="teamTextSize">16sp</dimen>
+    <dimen name="teamPadding">16dp</dimen>
+    <dimen name="scorePadding">24dp</dimen>
+    <dimen name="scoreTextSize">75sp</dimen>
+    <dimen name="marginHorizontal">24dp</dimen>
+    <dimen name="marginBottom">16dp</dimen>
+    <dimen name="line_width">3dp</dimen>
+    <dimen name="line_height">400dp</dimen>
+</resources>

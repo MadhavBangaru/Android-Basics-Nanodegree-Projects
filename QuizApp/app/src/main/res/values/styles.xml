@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="questions">
+        <item name="android:textSize">@dimen/ques_textSize</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+    <style name="EditTextanswers">
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">@dimen/ans_textSize</item>
+        <item name="android:hint">@string/hint</item>
+    </style>
+    <style name="options">
+        <item name="android:textSize">@dimen/ans_textSize</item>
+    </style>
+    <style name="submit">
+        <item name="android:background">@drawable/submit</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/quesMargin</item>
+    </style>
+
+</resources>

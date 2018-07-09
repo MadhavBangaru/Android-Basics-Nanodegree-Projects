@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.madhavbangaru.buisnesscard.MainActivity">
+
+        <ImageView
+            android:id="@+id/udacity"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/layoutColor"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop">
+
+            <ImageView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_marginStart="@dimen/marginStart"
+                android:src="@drawable/m_logo" />
+
+            <TextView
+                style="@style/fonts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:text="@string/Name"
+                android:textSize="@dimen/Namesize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop">
+
+            <ImageView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_marginStart="@dimen/marginStart"
+                android:src="@drawable/call" />
+
+            <TextView
+                style="@style/autolinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:autoLink="phone"
+                android:text="@string/Phone"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop">
+
+
+            <ImageView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_marginStart="@dimen/marginStart"
+                android:src="@drawable/globe" />
+
+            <TextView
+                style="@style/autolinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:autoLink="web"
+                android:text="@string/Website"
+                android:textSize="@dimen/textsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop">
+
+            <ImageView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_marginStart="@dimen/marginStart"
+                android:src="@drawable/location" />
+
+            <TextView
+                style="@style/autolinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:autoLink="map"
+                android:text="@string/Location"
+                android:textSize="@dimen/textsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/paddingTop">
+
+            <ImageView
+                android:layout_width="@dimen/imageWidth"
+                android:layout_height="@dimen/imageHeight"
+                android:layout_marginStart="@dimen/marginStart"
+                android:src="@drawable/time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:text="@string/Time"
+                android:textColor="@color/inlinetextColor"
+                android:textSize="@dimen/textsize" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/BottomTagline"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+</LinearLayout>
